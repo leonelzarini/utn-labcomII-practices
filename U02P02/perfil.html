@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Completar con sus opciones personales</h1>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <input type="text" readonly value="ESTUDIANTE">
+        <br>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su e-mail">
+        <br>
+        <label for="edad">Edad</label>
+        <input type="number" id="age" name="age" placeholder="Ingrese su edad">
+        <br>
+        <label for="seleccionable">Nacionalidad</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="argentina">Argentina</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="brazil">Brazil</option>
+            <option value="peru">Peru</option>
+            <option value="uruguay">Uruguay</option>
+        </select>
+        <br>
+        <label for="seleccionable">Condicion laboral</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="unemployed">Desempleado</option>
+            <option value="jsearch">Búsqueda laboral</option>
+            <option value="parttime">Part time</option>
+            <option value="fulltime">Full time</option>
+        </select>
+        <fieldset>
+            <legend>Gustos Personales</legend>
+            <label for="text">Musica</label>
+            <input type="text" id="music" name="music" placeholder="Tipo de musica preferida">
+            <br>
+            <label for="seleccionable">Comida favorita</label>
+            <select name="seleccionable" id="seleccionable">
+                <option value="salty">Salado</option>
+                <option value="sweet">Dulce</option>
+                <option value="pasta">Pastas</option>
+                <option value="meat">Carne</option>
+                <option value="vege">Vegetariano</option>
+            </select>
+        </fieldset>
+    </fieldset>
+    <label for="checkbox">Recordar Datos</label>
+    <input type="checkbox" name="checkA" id="checkA">
+    <br><br>
+    <input type="submit" value="Enviar Formulario">
+    <nav>
+        <ul>
+            <li><a href="index.html">Volver</a></li>
+        </ul>
+    </nav>  
+</body>
+
+</html>
