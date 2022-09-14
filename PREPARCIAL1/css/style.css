@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+*{
+    font-family: 'Lato';
+    margin:3px;
+    padding: 2px;
+    
+}
+header{
+    display: flex;
+}
+ul, li{
+    text-align: center;
+    display: inline-flex;
+}
+    .img-background{
+    background: url("/img/utn-alumnos.jpg");
+
+}
+ .center-both{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-background h1{
+    color: white;
+}
+.img-content p {
+    padding: 45px;
+    font-size: 18px;
+}
+
+main section{
+    display: flex;
+    min-height: 300px;
+}
+section.main-image>div{
+    flex: 1;
+
+}
